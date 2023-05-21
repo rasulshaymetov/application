@@ -1,0 +1,47 @@
+$orange: #c6362d;
+$rose: #bd1852;
+$dark: #2d343a;
+$purple: #7e208e;
+$darkpurple: #552f96;
+$indigo: #334293;
+$blue: #1c79c6;
+$lightblue: #0288c5;
+$cyan: #0198ab;
+$pinegreen: #01796f;
+$green: #3f8d42;
+$lightgreen: #719d3c;
+$lime: #a7b22f;
+$yellow: #cfbe32;
+$amber: #ce9c07;
+$orange: #cf7b01;
+$deeporange: #cf471d;
+$brown: #61453a;
+$gray: #7f7f7f;
+$bluegrey: #4f6572;
+$small: 12px;
+$medium: 14px;
+$big: 18px;
+$large: 24px;
+
+.cup{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    align-items: center;
+}
+.center{
+    align-items: center;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+}
