@@ -1,0 +1,8 @@
+@import "/src/styles/variables.scss";
+.MyBtn {
+  border: 1px solid $blue;
+  font-size: $medium;
+  border-radius: 5px ;
+  width: 250px;
+  height: 30px;
+}

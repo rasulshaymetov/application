@@ -1,4 +1,6 @@
+@import "variables.scss";
 body{
+    background: $bluegrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 p,div,ul,li,a{

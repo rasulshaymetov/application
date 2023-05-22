@@ -19,7 +19,7 @@ $brown: #61453a;
 $gray: #7f7f7f;
 $bluegrey: #4f6572;
 $small: 12px;
-$medium: 14px;
+$medium: 16px;
 $big: 18px;
 $large: 24px;
 
@@ -30,10 +30,14 @@ $large: 24px;
     display: flex;
 }
 .flex-center{
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .center{
     align-items: center;
+}
+.text-center{
+    text-align: center;
 }
 .none{
     display: none;
@@ -44,4 +48,25 @@ $large: 24px;
 @mixin flex-center{
     display: flex;
     align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.gap-50{
+    gap: 50px;
+}
+.mb-50{
+    margin: 50px;
+}
+.m-25{
+    margin: 25px;
+}
+.p-25{
+    padding: 25px;
+}
+.border-blue{
+    border: 1px solid $blue;
 }
