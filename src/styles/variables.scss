@@ -59,7 +59,16 @@ $large: 24px;
     gap: 50px;
 }
 .mb-50{
-    margin: 50px;
+    margin-bottom: 50px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.pb-20{
+    margin-bottom: 20px;
+}
+.g-5{
+    gap:5px;
 }
 .m-25{
     margin: 25px;
@@ -77,4 +86,19 @@ $large: 24px;
     position: absolute;
     width: 20px;
     font-size: 14px;
+}
+.column{
+    flex-direction: column;
+}
+.fz-m{
+    font-size: $medium;
+}
+.fz-b{
+    font-size: $big;
+}
+.fz-l{
+    font-size: $large;
+}
+.mb-10{
+    margin-bottom: 10px;
 }
